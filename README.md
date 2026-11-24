@@ -154,6 +154,7 @@ Servers that are **free to use**, with no API keys or optional free registration
 - [Brave Search](https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search) 🔑 ☁️ 🟢 - Web search
 - [Google Search](https://github.com/mixelpixx/Google-Search-MCP-Server) 🆓 ☁️ 🟢 - Google search results
 - [Statsnet](https://github.com/usenetstate/statsnet-mcp) 🆓 ☁️ 🟢 - Background check any company in the world: registration, executives, courts and finances. Remote: `https://statsnet.co/mcp`
+- [DC Hub](https://github.com/azmartone67/dchub-mcp-server) 🆓 ☁️ 🟢 - Live data-center site selection layer: Data Center Power Index (DCPI) scores where data centers can get grid power across 300+ markets (94 tools). Remote: `https://dchub.cloud/mcp`
 
 #### 🧠 AI & Productivity
 
@@ -194,19 +195,23 @@ Servers with free tiers or that require paid API access.
 - [Basecamp](https://github.com/georgeantonopoulos/Basecamp-MCP-Server) 💰 ☁️ - Basecamp project management
 - [Discord](https://github.com/discord/discord-mcp) 💰 ☁️ 🟡 - Discord server management
 - [Gmail](https://github.com/google/gmail-mcp) 💰 ☁️ 🟡 - Gmail email access
+- [PlaceCall](https://github.com/voygr-tech/placecall) 💰 ☁️ 🟡 - Places real phone calls to US businesses for bookings and quotes and returns the outcome and transcript.
 - [Slack](https://github.com/modelcontextprotocol/servers/tree/main/src/slack) 💰 ☁️ 🟡 - Slack workspace integration
 
 #### 💰 Finance & Business
 
+- [Agent Payment Node](https://github.com/nuanu-ai/agent-payment-node) 🏠 🔴 🟢 - Local macOS CLI and stdio MCP payments with foreground owner approval for signing (free MIT software; network and third-party fees apply).
 - [Stripe](https://stripe.com/mcp) 💲 ☁️ - Stripe payments API
 - [Chargebee](https://github.com/chargebee/agentkit/tree/main/modelcontextprotocol) 💲 ☁️ - Subscription management
 - [PayPal](https://github.com/paypal/paypal-mcp) 💲 ☁️ - PayPal integration
 - [Alpha Vantage](https://mcp.alphavantage.co/) 💰 ☁️ 🟢 - Financial market data
+- [FirstSales](https://developer.firstsales.io) 💲 ☁️ 🟡 - Hosted CRM MCP for companies, deals, pipelines, activities and contact creation through OAuth and Streamable HTTP; requires an eligible paid workspace.
 - [NotFair](https://notfair.co/) 💰 ☁️ 🟡 - Google Ads MCP server: diagnose performance, recommend optimizations, execute approved changes via the Google Ads API
 
 #### 🔍 Search & Analytics
 
 - [Exa](https://github.com/exa-labs/exa-mcp-server) 💰 ☁️ 🟢 - AI-powered search
+- [LogNorm](https://lognorm.com) 💰 ☁️ 🟡 🟢 - Hosted SEO/GEO MCP server (remote `https://lognorm.com/api/mcp`) that hands a site's growth backlog to Claude Code, Codex and Cursor.
 - [Perplexity](https://www.perplexity.ai/mcp) 💰 ☁️ 🟢 - AI search and answers
 - [Fathom Analytics](https://github.com/mackenly/mcp-fathom-analytics) 💰 ☁️ 🟢 - Privacy-focused analytics
 - [Robot Speed](https://github.com/robot-speed/mcp) 💰 ☁️ 🟡 🟢 - SEO / AI visibility MCP. Free tools at `https://www.robot-speed.com/api/mcp/free`; full remote at `/api/mcp`.
@@ -223,8 +228,10 @@ Servers with free tiers or that require paid API access.
 #### 📊 Data & Analytics
 
 - [Etsy Sales MCP](https://github.com/GeminiGeorge22/etsy-sales-mcp) 💰 🏠 🟢 - Etsy search results by keyword, marketplace and category plus daily sales counts and growth for any Etsy shop. Local stdio server (`npx -y github:GeminiGeorge22/etsy-sales-mcp`); needs your own Apify API token
+- [Gov Tenders MCP](https://github.com/GeminiGeorge22/gov-tenders-mcp) 💰 🏠 🟢 - Public-sector tenders, grants and awards (SAM.gov, Grants.gov, USAspending, UK Find a Tender, EU TED) plus Legistar city council agendas and minutes, each with its official source link. Local stdio server (`npx -y github:GeminiGeorge22/gov-tenders-mcp`); needs your own Apify API token
 - [Snowflake](https://github.com/snowflakedb/snowflake-mcp) 💲 ☁️ - Cloud data platform
 - [dbt](https://github.com/dbt-labs/dbt-core/tree/main/mcp) 💰 🏠/☁️ - Data transformation
+- [Sports Odds MCP](https://github.com/GeminiGeorge22/sports-odds-mcp) 💰 🏠 🟢 - Live odds from Kambi sportsbooks (BetRivers, Unibet, Paf, Svenska Spel, ATG and more) in one call, with every book's price and the best price per outcome. Local stdio server (`npx -y github:GeminiGeorge22/sports-odds-mcp`); needs your own Apify API token
 - [Tableau](https://github.com/tableau/tableau-mcp) 💲 ☁️ - Data visualization
 - [Amplitude](https://amplitude.com/mcp) 💲 ☁️ - Product analytics
 
@@ -263,6 +270,7 @@ Servers that enable workflow automation, browser automation, and task orchestrat
 
 - [n8n](https://n8n.io/integrations/mcp/) 💰 🏠/☁️ - Workflow automation platform
 - [Zapier](https://zapier.com/mcp) 💰 ☁️ - Connect 5000+ apps and automate workflows
+- [Aident Loadout](https://aident.ai) 💰 ☁️ - Connect AI agents to 1,000+ apps and 400+ Skills via one remote MCP server.
 - [Make.com](https://make.com) 💰 ☁️ - Visual automation platform
 - [Apple Shortcuts](https://github.com/recursechat/mcp-server-apple-shortcuts) 🆓 🏠 - macOS automation integration
 
@@ -321,6 +329,7 @@ Servers for Retrieval-Augmented Generation and vector database integration.
 - [Memory](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) 🆓 🏠 🟡 - Knowledge graph-based persistent memory
 - [Obsidian](https://github.com/obsidian/obsidian-mcp) 💰 🏠 🟡 - Personal knowledge base
 - [Notion](https://github.com/notion/notion-mcp) 💰 ☁️ 🟡 - Connected workspace
+- [Screenpipe](https://github.com/screenpipe/screenpipe/tree/main/packages/screenpipe-mcp) 💰 🏠 🟡 🟢 - Search locally captured screen text and audio history for recall and work summaries. Requires a running Screenpipe instance and local API key. Source-available under the Screenpipe Commercial License; configured cloud services can transmit context off-device ([Freemium pricing](https://screenpipe.com/pricing)).
 
 ### Embedding Services
 
